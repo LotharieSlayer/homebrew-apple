@@ -40,6 +40,7 @@ class GamePortingToolkitCompiler < Formula
                       "-DCMAKE_BUILD_TYPE=Release",
                       "-DCMAKE_VERBOSE_MAKEFILE=On",
                       "-DCMAKE_OSX_ARCHITECTURES=x86_64",
+                      "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
                       "-DLLVM_TARGETS_TO_BUILD=X86",
                       "-DLLVM_NATIVE_ARCH=X86",
                       "-DLLVM_HOST_TRIPLE=x86_64-apple-darwin",
